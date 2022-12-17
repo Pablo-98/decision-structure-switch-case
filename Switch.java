@@ -27,8 +27,11 @@ public class Switch {
         beverage.equals("water")
         ){
             System.out.println(" Cold bev");
-        } else {
-            System.out.println("this item is unkown");
+        } 
+        // this ensures our program has somewhere to go if the user input is not on the menu
+        else {
+             
+            System.out.println("this item is unkown...");
         }
     }
 }
