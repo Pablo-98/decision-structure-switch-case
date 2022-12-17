@@ -6,6 +6,8 @@
  * cold, horchata, soda, water
  */
 
+
+
  import java.util.Scanner;
 
 public class Switch {
@@ -19,8 +21,14 @@ public class Switch {
             System.out.println("Hot beverage");
         }
 
-        else {
-            System.out.println(" Cold bev"")
+        else  if ( 
+            beverage.equals("horchata") ||
+        beverage.equals("soda") ||
+        beverage.equals("water")
+        ){
+            System.out.println(" Cold bev");
+        } else {
+            System.out.println("this item is unkown");
         }
     }
 }
