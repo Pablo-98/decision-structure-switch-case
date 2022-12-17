@@ -7,6 +7,8 @@
  */
 
 
+ // java is case sensitive
+
 
  import java.util.Scanner;
 
